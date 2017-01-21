@@ -11,8 +11,8 @@ const filterCheckbox = document.createElement('input');
 filterLabel.textContent = 'Hide those who haven\'t responded';
 filterCheckbox.classList.add('filterCheckbox');
 filterCheckbox.type = 'checkbox';
+filterLabel.appendChild(filterCheckbox);
 filterDiv.appendChild(filterLabel);
-filterDiv.appendChild(filterCheckbox);
 mainDiv.insertBefore(filterDiv, ul);
 
 form.addEventListener('submit', (e) => {
