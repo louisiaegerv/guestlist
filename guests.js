@@ -1,0 +1,1 @@
+let guests = ['Ash Ketchum', 'Gary', 'Misty', 'Brock', 'Professor Oak'];
